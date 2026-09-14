@@ -1,0 +1,6 @@
+{
+  "name": "Saima's Kitchen",
+  "description": "Homemade food service serving comforting, authentic Pakistani meals in Islamabad and Rawalpindi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
