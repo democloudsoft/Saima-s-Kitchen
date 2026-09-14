@@ -259,7 +259,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 74px;
+        height: 78px;
       }
 
       /* Supplied logo used exactly, no text beside or above/below */
@@ -275,9 +275,9 @@
       }
 
       .brand-logo-img {
-        height: 48px;
+        height: 54px;
         width: auto;
-        max-width: 160px;
+        max-width: 180px;
         object-fit: contain;
       }
 
@@ -386,8 +386,8 @@
       /* --- HERO SECTION --- */
       .hero-section {
         position: relative;
-        padding-top: 3.5rem;
-        padding-bottom: 4rem;
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
         background: linear-gradient(180deg, #ffffff 0%, #fafaf9 100%);
         border-bottom: 1px solid var(--color-border);
       }
@@ -398,41 +398,28 @@
         margin: 0 auto;
       }
 
-      .hero-badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.4rem;
-        padding: 0.35rem 0.85rem;
-        background-color: var(--color-primary-light);
-        color: var(--color-primary);
-        border: 1px solid #fed7aa;
-        border-radius: 9999px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        margin-bottom: 1.25rem;
-      }
-
       .hero-title {
-        font-size: 2.25rem;
+        font-size: 2.35rem;
         font-weight: 700;
         color: var(--color-dark);
-        line-height: 1.2;
+        line-height: 1.22;
         letter-spacing: -0.025em;
-        margin-bottom: 1.15rem;
+        margin-top: 0;
+        margin-bottom: 1.25rem;
       }
 
       @media (min-width: 768px) {
         .hero-title {
-          font-size: 3rem;
+          font-size: 3.15rem;
         }
       }
 
       .hero-description {
-        font-size: 1.1rem;
+        font-size: 1.125rem;
         color: var(--color-dark-muted);
         line-height: 1.65;
         max-width: 680px;
-        margin: 0 auto 2rem auto;
+        margin: 0 auto 2.25rem auto;
       }
 
       .hero-ctas {
@@ -441,7 +428,7 @@
         align-items: center;
         justify-content: center;
         gap: 0.85rem;
-        margin-bottom: 2.75rem;
+        margin-bottom: 3rem;
       }
 
       /* Hero Image Transition (CSS Crossfade between Hero Image 1 and Hero Image 2) */
@@ -1171,13 +1158,14 @@
         }
       }
 
-      /* Logo slightly larger in footer, no company text beside/above/below */
+      /* Logo in footer, made bigger and prominently visible */
       .footer-logo-img {
-        height: 60px;
+        height: 96px;
         width: auto;
-        max-width: 200px;
+        max-width: 300px;
         object-fit: contain;
-        margin-bottom: 1.15rem;
+        margin-bottom: 1.25rem;
+        display: block;
       }
 
       .footer-desc {
@@ -1295,8 +1283,8 @@
             data-origin="https://freeimage.host/i/nBsXNzg"
             alt="Saima's Kitchen"
             class="brand-logo-img"
-            width="140"
-            height="48"
+            width="160"
+            height="54"
             onerror="if(this.src.indexOf('iili.io')===-1){this.src='https://iili.io/nBsXNzg.png';}"
           />
         </a>
@@ -1355,13 +1343,6 @@
       <!-- ==================== HERO SECTION ==================== -->
       <section class="hero-section" id="home">
         <div class="container hero-container">
-          <span class="hero-badge">
-            <svg class="icon" style="width: 0.95rem; height: 0.95rem;" viewBox="0 0 24 24">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-            </svg>
-            Homemade Food Service • Islamabad & Rawalpindi
-          </span>
-
           <h1 class="hero-title">Fresh Homemade Meals Prepared with Care</h1>
 
           <p class="hero-description">
@@ -2260,15 +2241,15 @@
       <div class="container">
         <div class="footer-grid">
           <div>
-            <!-- Logo slightly larger in footer, no company text beside it -->
+            <!-- Logo in footer, made bigger and prominently visible -->
             <a href="#home" class="brand-logo-link" aria-label="Saima's Kitchen Home">
               <img
                 src="https://iili.io/nBsXNzg.png"
                 data-origin="https://freeimage.host/i/nBsXNzg"
                 alt="Saima's Kitchen"
                 class="footer-logo-img"
-                width="170"
-                height="60"
+                width="280"
+                height="96"
                 onerror="if(this.src.indexOf('iili.io')===-1){this.src='https://iili.io/nBsXNzg.png';}"
               />
             </a>
